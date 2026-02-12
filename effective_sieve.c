@@ -34,6 +34,7 @@ int main() {
         assert(is_prime(&sv, i) == is_prime_slow(i));
         printf("Accepted\n");
     }
+    free(&sv);
     return 0;
 }
 
